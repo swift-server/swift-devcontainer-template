@@ -9,7 +9,7 @@
 | *Contributors* | [0xTim](https://github.com/0xTim), [adam-fowler](https://github.com/adam-fowler), [cloudnull](https://github.com/cloudnull) |
 | *Categories* | Community, Languages |
 | *Definition type* | Dockerfile |
-| *Supported architecture(s)* | x86-64 |
+| *Supported architecture(s)* | x86-64, arm64 |
 | *Works in Codespaces* | Yes |
 | *Container host OS support* | Linux, macOS, Windows |
 | *Container OS* | Debian |
@@ -20,14 +20,14 @@
 While the definition itself works unmodified, you can select the version of Swift the container uses by updating the `VARIANT` arg in the included `devcontainer.json` (and rebuilding if you've already created the container).
 
 ```json
-"args": { "VARIANT": "4" }
+"args": { "VARIANT": "5.7" }
 ```
 
 Given how frequently web applications use Node.js for front end code, this container also includes an optional install of Node.js. You can enable installation and change the version of Node.js installed or disable its installation by updating the `args` property in `.devcontainer/devcontainer.json`.
 
 ```jsonc
 "args": {
-    "VARIANT": "4",
+    "VARIANT": "5.7",
     "NODE_VERSION": "14" // Set to "none" to skip Node.js installation
 }
 ```
