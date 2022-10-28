@@ -1,4 +1,4 @@
-# [Choice] Swift version: 5.6-focal, 5.5, 5.4, 5.3, 5.2, 5.1, 4.2
+# [Choice] Swift version: 5.7, 5.6-focal, 5.5, 5.4, 5.3, 5.2, 5.1, 4.2
 ARG VARIANT=${templateOption:imageVariant}
 FROM swift:${VARIANT}
 
