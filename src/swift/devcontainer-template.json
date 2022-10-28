@@ -37,8 +37,8 @@
 			"proposals": [
 				"none",
 				"lts",
-                "latest",
-                "18",
+				"latest",
+				"18",
 				"16",
 				"14"
 			],
