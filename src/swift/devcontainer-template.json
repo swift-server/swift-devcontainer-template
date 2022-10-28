@@ -36,13 +36,13 @@
 			"description": "Node.js version:",
 			"proposals": [
 				"none",
-				"lts/*",
+				"lts",
+                "latest",
+                "18",
 				"16",
-				"14",
-				"12",
-				"10"
+				"14"
 			],
-			"default": "lts/*"
+			"default": "lts"
 		}
 	},
 	"platforms": [
