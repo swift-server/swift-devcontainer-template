@@ -11,7 +11,7 @@
 			"type": "string",
 			"description": "Swift version:",
 			"proposals": [
-                "5.7",
+				"5.7",
 				"5.6-focal",
 				"5.5",
 				"5.4",
