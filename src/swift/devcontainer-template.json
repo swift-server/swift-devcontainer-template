@@ -1,10 +1,10 @@
 {
 	"id": "swift",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"name": "Swift",
 	"description": "Develop Swift based applications. Includes appropriate runtime args and everything you need to get up and running.",
-	"documentationURL": "https://github.com/microsoft/vscode-dev-containers/tree/main/containers/swift",
-	"publisher": "Community",
+	"documentationURL": "https://github.com/swift-server/vscode-swift-devcontainer/tree/main/README.md",
+	"publisher": "Swift Server Work Group",
 	"licenseURL": "https://github.com/microsoft/vscode-dev-containers/blob/main/LICENSE",
 	"options": {
 		"imageVariant": {
