@@ -5,7 +5,7 @@
 	"description": "Develop Swift based applications. Includes appropriate runtime args and everything you need to get up and running.",
 	"documentationURL": "https://github.com/swift-server/vscode-swift-devcontainer/tree/main/README.md",
 	"publisher": "Swift Server Work Group",
-	"licenseURL": "https://github.com/microsoft/vscode-dev-containers/blob/main/LICENSE",
+	"licenseURL": "https://github.com/swift-server/vscode-swift-devcontainer/blob/main/LICENSE",
 	"options": {
 		"imageVariant": {
 			"type": "string",
