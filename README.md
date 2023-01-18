@@ -50,4 +50,4 @@ Given how frequently web applications use Node.js for front end code, this conta
 
 Copyright (c) Visual Studio Code Swift extension project. All rights reserved.
 
-Licensed under the MIT License. See [LICENSE](https://github.com/swift-server/vscode-swift-devcontainer/blob/main/LICENSE).
+Licensed under the MIT License. See [LICENSE](https://github.com/swift-server/swift-dev-container/blob/main/LICENSE).
