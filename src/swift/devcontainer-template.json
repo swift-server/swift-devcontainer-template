@@ -1,8 +1,8 @@
 {
 	"id": "swift",
-	"version": "1.1.1",
+	"version": "1.2.0",
 	"name": "Swift",
-	"description": "Develop Swift based applications. Includes appropriate runtime args and everything you need to get up and running.",
+	"description": "Develop Swift based applications. Includes everything you need to get up and running.",
 	"documentationURL": "https://github.com/swift-server/swift-devcontainer-template/tree/main/README.md",
 	"publisher": "Swift Server Work Group",
 	"licenseURL": "https://github.com/swift-server/swift-devcontainer-template/blob/main/LICENSE",
@@ -21,29 +21,6 @@
 				"4.2"
 			],
 			"default": "5.7"
-		},
-		"installZsh": {
-			"type": "boolean",
-			"description": "Install ZSH!?",
-			"default": "true"
-		},
-		"upgradePackages": {
-			"type": "boolean",
-			"description": "Upgrade OS packages to their latest versions",
-			"default": "false"
-		},
-		"nodeVersion": {
-			"type": "string",
-			"description": "Node.js version:",
-			"proposals": [
-				"none",
-				"lts",
-				"latest",
-				"18",
-				"16",
-				"14"
-			],
-			"default": "lts"
 		}
 	},
 	"platforms": [
