@@ -31,7 +31,7 @@
         "vscode": {
             // Set *default* container specific settings.json values on container create.
             "settings": {
-                "lldb.library": "/usr/bin/lldb"
+                "lldb.library": "/usr/lib/liblldb.so"
             },
             // Add the IDs of extensions you want installed when the container is created.
             "extensions": [
