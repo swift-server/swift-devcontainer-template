@@ -2,8 +2,6 @@
 	"name": "Swift",
     "image": "swift:${templateOption:imageVariant}",
     "features": {
-        // Find common features you can install here 
-        // https://github.com/devcontainers/features/tree/main/src
         "ghcr.io/devcontainers/features/common-utils:2": {
             "installZsh": "false",
             "username": "vscode",
@@ -15,10 +13,6 @@
             "version": "os-provided",
             "ppa": "false"
         }
-        /* to install Node.js uncomment the following
-        ,"ghcr.io/devcontainers/features/node:1": {
-            "version": "lts"
-        }*/
     },
     "runArgs": [
         "--cap-add=SYS_PTRACE",
