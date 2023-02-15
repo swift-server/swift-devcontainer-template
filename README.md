@@ -4,17 +4,6 @@
 
 Develop Swift based applications. Includes everything you need to get up and running.
 
-| Metadata | Value |  
-|----------|-------|
-| *Contributors* | [0xTim](https://github.com/0xTim), [adam-fowler](https://github.com/adam-fowler), [cloudnull](https://github.com/cloudnull) |
-| *Categories* | Languages |
-| *Definition type* | Dockerfile |
-| *Supported architecture(s)* | x86-64, arm64 |
-| *Works in Codespaces* | Yes |
-| *Container host OS support* | Linux, macOS, Windows |
-| *Container OS* | Debian |
-| *Languages, platforms* | Swift |
-
 ## Options
 
 | Options Id | Description | Type | Default Value |
