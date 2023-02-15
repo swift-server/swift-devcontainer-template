@@ -1,5 +1,9 @@
 #!/bin/sh
-# This script currently requires you to edit the devcontainer.json to replace the ${templateOption:imageVariant}
+# This script requires the devcontainer tool for publishing. You can install it with
+#   npm install -g @devcontainers/cli
+# More details can be found here https://github.com/devcontainers/cli#try-it-out
+#
+# The script currently requires you to edit the devcontainer.json to replace the ${templateOption:imageVariant}
 # with the swift version number you are testing with
 template_id=swift
 set -e
