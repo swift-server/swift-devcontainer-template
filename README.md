@@ -4,33 +4,13 @@
 
 Develop Swift based applications. Includes everything you need to get up and running.
 
-| Metadata | Value |  
-|----------|-------|
-| *Contributors* | [0xTim](https://github.com/0xTim), [adam-fowler](https://github.com/adam-fowler), [cloudnull](https://github.com/cloudnull) |
-| *Categories* | Languages |
-| *Definition type* | Dockerfile |
-| *Supported architecture(s)* | x86-64, arm64 |
-| *Works in Codespaces* | Yes |
-| *Container host OS support* | Linux, macOS, Windows |
-| *Container OS* | Debian |
-| *Languages, platforms* | Swift |
+## Options
 
-## Using this definition
+| Options Id | Description | Type | Default Value |
+|-----|-----|-----|-----|
+| imageVariant | Version of Swift | string | 5.7 |
 
-While the definition itself works unmodified, you can select the version of Swift the container uses by updating the `VARIANT` arg in the included `devcontainer.json` (and rebuilding if you've already created the container).
-
-```json
-"args": { "VARIANT": "5.7" }
-```
-
-Given how frequently web applications use Node.js for front end code, this container also includes an optional install of Node.js. You can enable installation and change the version of Node.js installed or disable its installation by updating the `args` property in `.devcontainer/devcontainer.json`.
-
-```jsonc
-"args": {
-    "VARIANT": "5.7",
-    "NODE_VERSION": "14" // Set to "none" to skip Node.js installation
-}
-```
+This template uses the common-utils feature to implement some commonly implemented options including install zsh and updating packages. Edit the values in the `devcontainer.json` to enable these. More details on available options can be found [here](https://github.com/devcontainers/features/blob/main/src/common-utils/README.md). 
 
 ### Adding the definition to a project or codespace
 
