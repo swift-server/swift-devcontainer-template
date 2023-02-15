@@ -1,3 +1,4 @@
+#!/bin/sh
 # This script requires the devcontainer tool for publishing. You can install it with
 #   npm install -g @devcontainers/cli
 # More details can be found here https://github.com/devcontainers/cli#try-it-out
