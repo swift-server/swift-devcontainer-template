@@ -8,7 +8,7 @@ Develop Swift based applications. Includes everything you need to get up and run
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| imageVariant | Version of Swift | string | 5.9 |
+| imageVariant | Version of Swift | string | 5.10 |
 
 This template uses the common-utils feature to implement some commonly implemented options including install zsh and updating packages. Edit the values in the `devcontainer.json` to enable these. More details on available options can be found [here](https://github.com/devcontainers/features/blob/main/src/common-utils/README.md). 
 

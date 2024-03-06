@@ -11,6 +11,7 @@
 			"type": "string",
 			"description": "Swift version:",
 			"proposals": [
+				"5.10",
 				"5.9",
 				"5.8",
 				"5.7",
@@ -21,7 +22,7 @@
 				"5.2",
 				"5.1"
 			],
-			"default": "5.9"
+			"default": "5.10"
 		}
 	},
 	"platforms": [
