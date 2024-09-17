@@ -11,6 +11,7 @@
 			"type": "string",
 			"description": "Swift version:",
 			"proposals": [
+				"6.0",
 				"5.10",
 				"5.9",
 				"5.8",
