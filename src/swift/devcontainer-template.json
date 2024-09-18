@@ -1,6 +1,6 @@
 {
 	"id": "swift",
-	"version": "2.3.0",
+	"version": "2.4.0",
 	"name": "Swift",
 	"description": "Develop Swift based applications. Includes everything you need to get up and running.",
 	"documentationURL": "https://github.com/swift-server/swift-devcontainer-template/tree/main/README.md",
@@ -11,6 +11,7 @@
 			"type": "string",
 			"description": "Swift version:",
 			"proposals": [
+				"6.0",
 				"5.10",
 				"5.9",
 				"5.8",
@@ -22,7 +23,7 @@
 				"5.2",
 				"5.1"
 			],
-			"default": "5.10"
+			"default": "6.0"
 		}
 	},
 	"platforms": [
