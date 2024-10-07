@@ -36,6 +36,6 @@
     // The default swift docker image variant is built on Ubuntu, which creates the `ubuntu` user with uid:gid 1000:1000.
     // We are using this user and updating its uid:gid to match the local user that is running the devcontainer,
     // so that files created inside the devcontainer will belong to the local user.
-    "remoteUser": "ubuntu",
+    "containerUser": "ubuntu",
     "updateRemoteUserUID": true
 }
