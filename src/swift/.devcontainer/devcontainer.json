@@ -4,9 +4,6 @@
     "features": {
         "ghcr.io/devcontainers/features/common-utils:2": {
             "installZsh": "false",
-            "username": "vscode",
-            "userUid": "1000",
-            "userGid": "1000",
             "upgradePackages": "false"
         },
         "ghcr.io/devcontainers/features/git:1": {
@@ -36,6 +33,9 @@
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     // "forwardPorts": [],
 
-    // Set `remoteUser` to `root` to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-    "remoteUser": "vscode"
+    // The default swift docker image variant is built on Ubuntu, which creates the `ubuntu` user with uid:gid 1000:1000.
+    // We are using this user and updating its uid:gid to match the local user that is running the devcontainer,
+    // so that files created inside the devcontainer will belong to the local user.
+    "remoteUser": "ubuntu",
+    "updateRemoteUserUID": true
 }
