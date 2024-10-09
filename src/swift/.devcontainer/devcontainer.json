@@ -1,9 +1,16 @@
 {
     "name": "Swift",
-    "image": "swift:${templateOption:imageVariant}",
+    "build": {
+        "dockerfile": "./Dockerfile",
+        "context": ".",
+        "args": {
+            "SWIFT_VERSION": "${templateOption:imageVariant}"
+        }
+    },
     "features": {
         "ghcr.io/devcontainers/features/common-utils:2": {
             "installZsh": "false",
+            "username": "vscode",
             "upgradePackages": "false"
         },
         "ghcr.io/devcontainers/features/git:1": {
@@ -33,9 +40,5 @@
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     // "forwardPorts": [],
 
-    // The default swift docker image variant is built on Ubuntu, which creates the `ubuntu` user with uid:gid 1000:1000.
-    // We are using this user and updating its uid:gid to match the local user that is running the devcontainer,
-    // so that files created inside the devcontainer will belong to the local user.
-    "containerUser": "ubuntu",
-    "updateRemoteUserUID": true
+    "containerUser": "vscode"
 }
